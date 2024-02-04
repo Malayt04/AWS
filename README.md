@@ -1,5 +1,7 @@
 # AWS for devops
+
 These are the notes and link to resources that I am creating while learning aws. 
+Also these notes are based on a youtube playlist. You can checkout the lectures with this link (https://www.youtube.com/playlist?list=PLRAV69dS1uWSj3ltu0ym1LwWg4509PZ0N)
 
 # Day 1:
 
