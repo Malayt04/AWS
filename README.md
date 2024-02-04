@@ -36,16 +36,16 @@ Example: Heroku, netlify etc.
 Explanation: Heroku is a cloud platform that allows developers to deploy, manage, and scale web applications easily. It supports various programming languages and frameworks, providing a seamless deployment experience without worrying about infrastructure management.
 
 
-##Software as a Service (SaaS):
+## Software as a Service (SaaS):
 
 SaaS delivers software applications over the internet on a subscription basis. Users can access these applications via a web browser without needing to install or maintain any software locally.
 Example: Youtube
 Explanation:YouTube exemplifies the SaaS model by providing users with access to a software application  over the internet, without requiring installation or maintenance, and offering continuous update.
 
 
-##Function as a Service (FaaS):
+## Function as a Service (FaaS):
 
-Definition: FaaS is a cloud computing service that allows developers to deploy individual functions or pieces of code in the cloud and execute them in response to events or triggers without managing server infrastructure.
+FaaS is a cloud computing service that allows developers to deploy individual functions or pieces of code in the cloud and execute them in response to events or triggers without managing server infrastructure.
 Example: AWS Lambda.
 Explanation: AWS Lambda allows developers to run code in response to events such as changes to data in Amazon S3 buckets, updates to DynamoDB tables, HTTP requests via Amazon API Gateway, etc. Developers upload their code and Lambda automatically scales and executes it in response to events.
 
