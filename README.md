@@ -26,29 +26,29 @@ Okay so by the above information, you have understood why are we moving towards 
 
 ## Infrastructure as a Service (IaaS):
 
-IaaS provides virtualized computing resources over the internet. It allows users to rent infrastructure components like virtual machines, storage, and networking resources on a pay-per-use basis.
-Example: Amazon Web Services (AWS) EC2 (Elastic Compute Cloud).
+IaaS provides virtualized computing resources over the internet. It allows users to rent infrastructure components like virtual machines, storage, and networking resources on a pay-per-use basis.<br>
+Example: Amazon Web Services (AWS) EC2 (Elastic Compute Cloud).<br>
 Explanation: AWS EC2 allows users to launch and manage virtual servers (EC2 instances) in the cloud. Users can choose the instance type, operating system, and other configurations based on their requirements.
 
 
 ## Platform as a Service (PaaS):
 
-PaaS provides a platform allowing customers to develop, run, and manage applications without dealing with the underlying infrastructure. It offers development and deployment environments with built-in tools and services.
-Example: Heroku, netlify etc.
+PaaS provides a platform allowing customers to develop, run, and manage applications without dealing with the underlying infrastructure. It offers development and deployment environments with built-in tools and services.<br>
+Example: Heroku, netlify etc.<br>
 Explanation: Heroku is a cloud platform that allows developers to deploy, manage, and scale web applications easily. It supports various programming languages and frameworks, providing a seamless deployment experience without worrying about infrastructure management.
 
 
 ## Software as a Service (SaaS):
 
-SaaS delivers software applications over the internet on a subscription basis. Users can access these applications via a web browser without needing to install or maintain any software locally.
-Example: Youtube
+SaaS delivers software applications over the internet on a subscription basis. Users can access these applications via a web browser without needing to install or maintain any software locally.<br>
+Example: Youtube<br>
 Explanation:YouTube exemplifies the SaaS model by providing users with access to a software application  over the internet, without requiring installation or maintenance, and offering continuous update.
 
 
 ## Function as a Service (FaaS):
 
-FaaS is a cloud computing service that allows developers to deploy individual functions or pieces of code in the cloud and execute them in response to events or triggers without managing server infrastructure.
-Example: AWS Lambda.
+FaaS is a cloud computing service that allows developers to deploy individual functions or pieces of code in the cloud and execute them in response to events or triggers without managing server infrastructure.<br>
+Example: AWS Lambda.<br>
 Explanation: AWS Lambda allows developers to run code in response to events such as changes to data in Amazon S3 buckets, updates to DynamoDB tables, HTTP requests via Amazon API Gateway, etc. Developers upload their code and Lambda automatically scales and executes it in response to events.
 
 
