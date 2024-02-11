@@ -53,6 +53,35 @@ Explanation: AWS Lambda allows developers to run code in response to events such
 
 
 
+# Control Over Cloud
+
+In cloud computing, control over the cloud refers to the degree of authority and management a user or organization has over their cloud infrastructure and resources. Control can vary based on several factors, including the type of cloud deployment (private, public, hybrid, or multi-cloud) and the level of service provided by the cloud provider. Let's define each type of cloud deployment in the context of control:
+
+## Private Cloud
+
+You own the hardware
+You own the software
+Only you use it 
+Security complaince
+
+
+## Public Cloud:
+
+Cloud resources are shared over a group of people
+Cloud service provider is involved
+Control is in the hand of the cloud service provider 
+Users have access to virtual machines through web based console
+
+## Hbyrid Cloud
+
+Best of both private and public 
+Connection through internet and shared link
+
+## Multicloud
+
+Use multiple cloud service providers to manage the workload of your organisation
+eg: aws, azure both together
+
 
 
 
