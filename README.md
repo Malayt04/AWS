@@ -124,6 +124,7 @@ Amazon Web Services (AWS) is known for its extensive and robust global infrastru
    - Local Zones are extensions of AWS regions that are located closer to metropolitan areas, enabling customers to run latency-sensitive applications with single-digit millisecond latency.<br>
    - Wavelength Zones are deployed at the edge of telecommunication networks and are optimized for ultra-low latency applications, such as mobile edge computing and 5G-enabled services.<br>
 
+![AWS global infrastructure](https://digitalcloud.training/wp-content/uploads/2022/02/aws-regions-availability-zones.png)
 
 
 
