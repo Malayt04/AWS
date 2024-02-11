@@ -94,4 +94,36 @@ Pay what you use <br>
 Compute Storage Access data transfer
 
 
+# AWS global infrastructure 
+
+Amazon Web Services (AWS) is known for its extensive and robust global infrastructure, which enables customers to deploy their applications and services with low latency, high availability, and scalability across the globe. Here's a brief overview of the AWS global infrastructure:
+
+## Regions:
+   - AWS operates a global network of data centers known as regions. A region is a geographical area that consists of multiple Availability Zones (AZs).<br>
+   - Each region is isolated from other regions to provide fault tolerance and stability. AWS currently has multiple regions worldwide, including regions in North America, South America, Europe, Asia Pacific, and the Middle East.<br>
+
+## Availability Zones (AZs):
+   - Availability Zones are distinct data centers within a region that are engineered to be isolated from failures in other Availability Zones.<br>
+   - Each AZ is equipped with independent power, cooling, and networking infrastructure to ensure high availability and fault tolerance.<br>
+   - By deploying resources across multiple AZs within a region, customers can achieve redundancy and improve the resilience of their applications.<br>
+
+## Edge Locations:
+   - In addition to regions and Availability Zones, AWS has a global network of edge locations that are used for content delivery and caching through the Amazon CloudFront service.<br>
+   - Edge locations are distributed worldwide and are strategically located to deliver content to end-users with low latency and high data transfer speeds.<br>
+
+## Global Network Backbone:
+   - AWS operates a high-speed global network backbone that interconnects its regions and edge locations.<br>
+   - This network backbone ensures fast and reliable communication between AWS services, regions, and edge locations, enabling customers to transfer data and access resources efficiently.<br>
+
+## AWS Direct Connect:
+   - AWS Direct Connect provides dedicated network connections between customer data centers, office locations, or colocation environments and AWS.<br>
+   - By using AWS Direct Connect, customers can establish private and secure connections to AWS, bypassing the public internet, and achieve predictable network performance and reduced latency.<br>
+
+## AWS Local Zones and Wavelength Zones:
+   - AWS has introduced Local Zones and Wavelength Zones to bring AWS services closer to end-users and specific geographic locations.<br>
+   - Local Zones are extensions of AWS regions that are located closer to metropolitan areas, enabling customers to run latency-sensitive applications with single-digit millisecond latency.<br>
+   - Wavelength Zones are deployed at the edge of telecommunication networks and are optimized for ultra-low latency applications, such as mobile edge computing and 5G-enabled services.<br>
+
+
+
 
