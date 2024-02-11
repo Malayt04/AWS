@@ -84,6 +84,14 @@ eg: aws, azure both together
 
 
 
+# AWS (Amazon Web Services)
+
+![AWS](https://repost.aws/static/images/aws.png)
+
+An Amazon company <br>
+On demand cloud <br>
+Pay what you use <br>
+Compute Storage Access data transfer
 
 
 
