@@ -127,4 +127,6 @@ Amazon Web Services (AWS) is known for its extensive and robust global infrastru
 ![AWS global infrastructure](https://digitalcloud.training/wp-content/uploads/2022/02/aws-regions-availability-zones.png)
 
 
+# Identity Access Management
+
 
