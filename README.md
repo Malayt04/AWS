@@ -146,6 +146,52 @@ Group is a way to organise the users. It is always a good practice to assign rol
  He is basically the owner<br>
  Root users should be avoided and use multifactor authentication.<br>
 
+ ## Create user:
+ No permissions are given from the start  <br>
+ You can create around 5000 accounts (soft limit) <br>
+ As discussed earlier, use services and prefer groups <br>
+ 
+ ##Create Groups
+
+ Add policy to group. <br>
+ User get permission via group in json format. <br>
+ Give a group least privilage possible.
+
+
+# Policies
+
+In AWS Identity and Access Management (IAM), there are primarily six types of policies:
+
+## Identity-based policies:
+    - These policies are attached to IAM identities (users, groups, or roles) and specify permissions for those identities.<br>
+    - Identity-based policies can be managed policies (either AWS managed or customer managed) or inline policies.<br>
+    - They define what actions are allowed or denied on which AWS resources.<br>
+
+## Resource-based policies:
+    - These policies are attached to AWS resources such as Amazon S3 buckets, Lambda functions, or SQS queues.<br>
+    - Resource-based policies specify who can access the resource and what actions they can perform.<br>
+    - They are defined and managed alongside the resource to which they apply.<br>
+
+## Permission boundaries:
+    - Permission boundaries are advanced IAM policies that can be used to set the maximum permissions that an IAM entity (user or role) can have.<br>
+    - They act as a container for permissions and can't grant permissions but can only reduce permissions.<br>
+    - Permission boundaries can be used to ensure that IAM entities cannot be granted more permissions than allowed by the boundary.<br>
+
+## Service Control Policies (SCPs)**:
+    - SCPs are a feature of AWS Organizations, which is used to centrally manage and enforce security policies across multiple AWS accounts in an organization.<br>
+    - SCPs are attached to organizational units (OUs) or the entire organization and specify the maximum permissions that can be applied to the member accounts.<br>
+    - They are used to set guardrails and restrict what actions and resources are accessible within member accounts.<br>
+
+## Access Control Lists (ACLs):
+    - ACLs are legacy access control mechanisms that are attached to Amazon S3 buckets and can be used to manage access to the bucket and its contents.<br>
+    - ACLs are not as flexible as IAM policies and are generally not recommended for managing access to S3 buckets unless there are specific requirements.<br>
+
+## Session policies:
+    - Session policies are temporary policies that are applied during an AWS session after assuming a role using AWS Security Token Service (STS).<br>
+    - They are similar to inline policies and define the permissions that are granted to the session.<br>
+    - Session policies are created dynamically and last only for the duration of the session.<br>
+
+These six types of IAM policies provide various mechanisms for controlling access to AWS resources and managing permissions across different AWS services and features.
 
  
 
