@@ -203,7 +203,8 @@ IAM access analyser: Tool to generate least privillage policies based to access 
 Regularly remove user, roles, permissions, policies and credintials that are no longer used.
 Condition like IP range or geolocation can be applied
 
-
+#### Note: 
+To get hands on feel with IAM, you can view this youtube video: (https://www.youtube.com/watch?v=4jLwjylseXA)
  
 
 
