@@ -84,6 +84,8 @@ eg: aws, azure both together
 
 
 
+# Day 2
+
 # AWS (Amazon Web Services)
 
 ![AWS](https://repost.aws/static/images/aws.png)
