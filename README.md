@@ -193,6 +193,17 @@ In AWS Identity and Access Management (IAM), there are primarily six types of po
 
 These six types of IAM policies provide various mechanisms for controlling access to AWS resources and managing permissions across different AWS services and features.
 
+# IAM best practices:
+Throughout our discussion, we have talked about some of the best practices for the actions we perform. So let me compile all of them together.
+Use multifactor authentication<br>
+Do not use root account
+Rotate keys
+Give least privillages in the policy making
+IAM access analyser: Tool to generate least privillage policies based to access activites. (Not widely used in organisations)
+Regularly remove user, roles, permissions, policies and credintials that are no longer used.
+Condition like IP range or geolocation can be applied
+
+
  
 
 
