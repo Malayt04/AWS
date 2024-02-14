@@ -128,7 +128,34 @@ Amazon Web Services (AWS) is known for its extensive and robust global infrastru
 
 ![AWS global infrastructure](https://digitalcloud.training/wp-content/uploads/2022/02/aws-regions-availability-zones.png)
 
+# Day 3
 
 # Identity Access Management
+
+![IAM](https://d1.awsstatic.com/howitworks_IAM_110321.8b2290727bb2022d54416e099c87ad9dc64be5d5.jpg)
+
+Identity access management or simpely IAM  is a web service that helps you securely control access to AWS resources. It allows you to manage users, groups, and permissions within your AWS account. Some of the key features of IAM includes user management, group management, role based access, multifactor authentication, policy management, access key management. We will look into all these features in more detail. Firstly lets understand the IAM architecture.
+
+# AWS IAM Archirtecture 
+
+The user is firstly assigned to a group and is given a particular role. He is then given access to the aws services based on the policies that are made for that particular group. 
+Group is a way to organise the users. It is always a good practice to assign roles to groups rather than to individual users. Roles are assumed and they keep changing.
+
+#### Root User:
+ He has full access to all the services.<br>
+ He is basically the owner<br>
+ Root users should be avoided and use multifactor authentication.<br>
+
+
+ 
+
+
+
+
+
+
+
+
+
 
 
