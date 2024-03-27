@@ -205,7 +205,10 @@ Condition like IP range or geolocation can be applied
 
 #### Note: 
 To get hands on feel with IAM, you can view this youtube video: (https://www.youtube.com/watch?v=4jLwjylseXA)
- 
+
+
+# AWS S3
+
 
 
 
